@@ -1,10 +1,10 @@
 
 Lab - Entering Commands
 ==========
-Follow the instructions line-by-line.  
+Follow the instructions line-by-line.
 
-* Type in the commands as is, but ignore the beginning prompt.  
-* Enter, tab, up and down are represented by <ENTER><TAB>,<UP> and <DOWN>.  
+* Type in the commands as is, but ignore the beginning prompt.
+* Enter, tab, up and down are represented by <ENTER><TAB>,<UP> and <DOWN>.
 * "No output" or "nothing happens" are valid answers to any of the questions.
 ==========
 
@@ -17,29 +17,35 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-
+Adlm				Library				QLData				pslog_20200109_170408.log
+Applications			Movies				Things				pymel.log
+Desktop				Music				ipe.properties			xgen
+Documents			Pictures			isus
+Downloads			Public				lab_01_commandline_01
 
 
 ==========
-2a. Type: 
+2a. Type:
 
 $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-
+Desktop/   Documents/ Downloads/
+This is showing the list of directories starting with the letter D.
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-
+Desktop/   Documents/ Downloads/
+Continues to show the list of directories starting with the letter D.
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-
+No such file or directory
 
 
 ==========
@@ -49,7 +55,8 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+drwxrwxrwx  15 student  staff   510 Jan  9 17:04 Adobe
+drwxr-xr-x   3 student  staff   102 Aug 22  2016 Arduino
 
 
 ==========
@@ -59,7 +66,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+.			.localized		Fritzing		Native Instruments	Temporary Work
+..			Adobe			MakeHuman		Pd			Unreal Projects
 
 
 ==========
@@ -69,7 +77,7 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
-
+ls -a Documents
 
 
 ==========
@@ -79,7 +87,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+ls -a Documents
 
 
 ==========
@@ -89,7 +97,7 @@ $ ls /Vol<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-
+Responds with text saying "Macintosh HD"
 
 
 ==========
@@ -99,13 +107,13 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
+ls: doesnotexist: No such file or directory
 
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
+UP
 
 
 ==========
@@ -117,19 +125,19 @@ Copy and paste the output below.
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+<TAB>
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-
+ls
 
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
-
+ls -a
 
 
 ==========
@@ -139,7 +147,7 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
-
+-bash: foo: command not found
 
 
 ==========
