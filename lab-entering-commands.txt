@@ -97,7 +97,7 @@ $ ls /Vol<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-Responds with text saying "Macintosh HD"
+Macintosh HD		firmwaresyncd.7Iy6Tq
 
 
 ==========
@@ -119,7 +119,7 @@ UP
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
+Command and argument
 
 
 ==========
@@ -137,7 +137,7 @@ ls
 ==========
 13.  Name one argument that we passed to the command.
 ----------
-ls -a
+Documents
 
 
 ==========
@@ -157,6 +157,7 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
+-bash: foo: command not found
 
 
 
@@ -167,3 +168,4 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+The command is ls, the flag is -a, and the arguement is Dekstop. The prompt is to show files which aren't normally visible on the GUI
