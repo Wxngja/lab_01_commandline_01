@@ -1,10 +1,10 @@
 
 Lab - Navigating the File System
 ==========
-Follow the instructions line-by-line.  
+Follow the instructions line-by-line.
 
-* Type in the commands as is, but ignore the beginning prompt.  
-* Enter, tab, up and down are represented by <ENTER><TAB>,<UP> and <DOWN>.  
+* Type in the commands as is, but ignore the beginning prompt.
+* Enter, tab, up and down are represented by <ENTER><TAB>,<UP> and <DOWN>.
 * "No output" or "nothing happens" are valid answers to any of the questions.
 ==========
 
@@ -31,6 +31,7 @@ If it doesn't start at #1 again, or ask for help before moving on!
 
 Copy and paste the output of pwd below.
 ----------
+/Users/student/mtec1002
 
 
 
@@ -42,7 +43,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals
 
 
 ==========
@@ -53,7 +54,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals food
 
 
 ==========
@@ -64,7 +65,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals	foo	food
 
 
 ==========
@@ -75,7 +76,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/student/mtec1002/foo/bar/baz/qux
 
 
 ==========
@@ -86,7 +87,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/student/mtec1002/foo/bar
 
 
 ==========
@@ -97,9 +98,9 @@ $ pwd
 
 Copy and paste the output below.
 ----------
+/Users/student/mtec1002/foo/bar/baz/qux
 
 
- 
 ==========
 11. Type:
 
@@ -108,7 +109,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/student/mtec1002
 
 
 ==========
@@ -120,7 +121,8 @@ $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
 ----------
-
+drwxr-xr-x  3 student  staff  102 Feb 10 16:29 foo
+drwxr-xr-x  2 student  staff   68 Feb 10 16:28 food
 
 
 ==========
@@ -131,6 +133,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
+/Users/student
 
 
 
@@ -142,6 +145,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
+/Volumes
 
 
 
@@ -153,7 +157,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Volumes
 
 
 ==========
@@ -164,7 +168,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Users/student/mtec1002
 
 
 ==========
@@ -174,13 +178,13 @@ $ hostname
 
 Copy and paste the output into the space below.
 ----------
-
+v314-ent-009.local
 
 
 ==========
 17a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
-
+$ pwd
 
 
 ==========
@@ -203,23 +207,27 @@ lemon
 
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
-
+mkdir -p lemon/strawberry/orange/pineapple
 
 
 ==========
-19. Make another directory called aardvark.  
+19. Make another directory called aardvark.
 
 Write the command you used to create the directory below:
 ----------
-
-
+mkdir aardvark
 
 ==========
-20. List the files and directories in the current directory using the long format.  
+20. List the files and directories in the current directory using the long format.
 
 What is the modified date of the aardvark directory?
 ----------
-
+drwxr-xr-x   6 student  staff   204 Feb 10 16:35 .
+drwxr-xr-x   2 student  staff    68 Feb 10 16:35 aardvark
+drwxr-xr-x   3 student  staff   102 Feb 10 16:35 lemon
+drwxr-xr-x   3 student  staff   102 Feb 10 16:29 foo
+drwxr-xr-x   2 student  staff    68 Feb 10 16:28 food
+drwxr-xr-x+ 53 student  staff  1802 Feb 10 16:27 ..
 
 
 ==========
@@ -231,7 +239,7 @@ What is the modified date of the aardvark directory?
 
 What command did you use?
 ----------
-
+mkdir -p foo/bar/baz
 
 
 ==========
@@ -239,7 +247,7 @@ What command did you use?
 
 What command did you use?
 ----------
-
+mkdir foo/bar/baz
 
 
 ==========
@@ -247,12 +255,12 @@ What command did you use?
 
 What command did you use?
 ----------
-
+cd ../..
 
 ==========
 24. What command is used to delete empty directories?
 ----------
-
+rmdir
 
 
 ==========
@@ -264,27 +272,28 @@ What command did you use?
 ==========
 26. What flag do I pass to ls to print out all files?
 ----------
-
+-a
 
 
 ==========
 27. What's the shortcut for home directory?
 ----------
-
+cd /
 
 
 ==========
 28. What's a pathname?
 ----------
-
+A sequence of files, or specifies the file path
 
 
 ==========
 29. What's a directory?
 ----------
-
+Directory is where most of your main files are stored
 
 
 ==========
 30. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+/Users/student/Downloads
